@@ -125,9 +125,8 @@ a {
 
 #footer {
   padding-top: 20vh;
-  background-color: #ff00809a;
+  background: var(--lightpurple);  
   margin-top: 40px;
-
 }
 
 h4 {
@@ -135,12 +134,12 @@ h4 {
 }
 
 div.notification {
-  background-color: #1fd21f;
+  background: var(--lightpurple);
+  box-shadow: 0 2px 25px rgba(255, 0, 132, 0.251);
   position: fixed;
   width: fit-content;
   padding: 2vh;
-  top: 2vh;
-  right: 0;
+  top: 30vh;
   z-index: 1;
 }
 
@@ -160,7 +159,6 @@ div.notification p {
     overflow: hidden;
     width: 100px;
     height: 100px; 
-    border: 1px solid black;
 }
 
 #slide {
@@ -353,7 +351,7 @@ h1{
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  /* bottom: 0; */
   display: none;
   text-align: center;
   padding: 15vh 0 5vh;
