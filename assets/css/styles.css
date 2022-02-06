@@ -23,6 +23,7 @@ ul {
 }
 
 body {
+  font-family: 'Work Sans', sans-serif;
   margin-left: 30vh;
   margin-right: 30vh;
   white-space: wrap;
@@ -31,8 +32,8 @@ body {
   background-color: #f8faff;
 }
 
-#header {
-  padding-bottom: 50vh;
+#header, #projects {
+  padding-bottom: 20vh;
 }
 
 .sticky {
@@ -52,10 +53,6 @@ body {
 
 #container {
   margin-top: 10vh;
-}
-
-#projects {
-  padding-bottom: 50vh;
 }
 
 #project1:hover {
@@ -120,7 +117,7 @@ a {
 
 #experience {
   font-size: small;
-  padding-bottom: 40vh;
+  padding-bottom: 20vh;
 }
 
 #footer {
@@ -141,6 +138,7 @@ div.notification {
   padding: 2vh;
   top: 30vh;
   z-index: 1;
+  display: none;
 }
 
 div.notification p {
